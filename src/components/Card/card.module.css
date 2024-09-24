@@ -1,0 +1,13 @@
+.card {
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .card:hover {
+    transform: translate(10px, -10px);
+    filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.5));
+    background: rgb(59, 189, 254);
+    color: white;
+    text-decoration: underline;
+  }
+ 
